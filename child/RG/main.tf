@@ -60,3 +60,9 @@ resource "azurerm_resource_group" "rg-rohit17" {
   location = "east us"
     tags     = {}  # Azure best practice: avoid empty tag maps
 }
+
+resource "azurerm_resource_group" "rg-rohit16" {
+  name     = "rohit6"
+  location = "east us"
+    tags     = {}  # Azure best practice: avoid empty tag maps
+}
